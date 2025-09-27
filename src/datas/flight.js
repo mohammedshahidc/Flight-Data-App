@@ -1,0 +1,61 @@
+
+const flightsMockData = [
+    {
+      id: 1,
+      airline: "IndiGo",
+      logo: "https://whatthelogo.com/storage/logos/indigo-300433.png",
+      from: "Delhi (DEL)",
+      to: "Mumbai (BOM)",
+      price: 4500,
+      duration: "2h 10m",
+      departure: "08:30",
+      arrival: "10:40",
+    },
+    {
+      id: 2,
+      airline: "Air India",
+      logo: "https://d3lzcn6mbbadaf.cloudfront.net/media/details/air_indfia.jpg",
+      from: "Bangalore (BLR)",
+      to: "Chennai (MAA)",
+      price: 3200,
+      duration: "1h 05m",
+      departure: "12:15",
+      arrival: "13:20",
+    },
+    {
+      id: 3,
+      airline: "SpiceJet",
+      logo: "https://www.brandcolorcode.com/images/color-palette/spicejet.png",
+      from: "Hyderabad (HYD)",
+      to: "Kolkata (CCU)",
+      price: 5600,
+      duration: "2h 45m",
+      departure: "15:00",
+      arrival: "17:45",
+    },
+    {
+      id: 4,
+      airline: "Vistara",
+      logo: "https://thehardcopy.co/wp-content/uploads/Vistara-Images-7-1200x805.png",
+      from: "Delhi (DEL)",
+      to: "Goa (GOI)",
+      price: 7200,
+      duration: "3h 10m",
+      departure: "06:45",
+      arrival: "09:55",
+    },
+    {
+      id: 5,
+      airline: "GoAir",
+      logo: "https://upload.wikimedia.org/wikipedia/en/9/9e/Go_First_RGB_Logo_1_reduced.jpg",
+      from: "Mumbai (BOM)",
+      to: "Pune (PNQ)",
+      price: 2500,
+      duration: "0h 50m",
+      departure: "19:30",
+      arrival: "20:20",
+    },
+  ];
+  
+  export default flightsMockData;
+  
